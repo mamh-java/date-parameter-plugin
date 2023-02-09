@@ -18,7 +18,7 @@
     <version>0.0.5-SNAPSHOT</version>
     <packaging>hpi</packaging>
     <name>Date Parameter Plugin</name>
-    <url>https://wiki.jenkins-ci.org/display/JENKINS/Date+Parameter+Plugin</url>
+    <url>https://github.com/mamh-java/date-parameter-plugin</url>
     <description>Java style LocalDate code as parameter in Parametrized builds</description>
     <!-- The default licence for Jenkins OSS Plugins is MIT. Substitute for the applicable one if needed. -->
 
@@ -30,18 +30,17 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git://github.com/jenkinsci/date-parameter-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:jenkinsci/date-parameter-plugin.git</developerConnection>
-        <url>https://github.com/jenkinsci/date-parameter-plugin</url>
+        <connection>scm:git:https://github.com/mamh-java/date-parameter-plugin.git</connection>
+        <developerConnection>scm:git:https://github.com/mamh-java/date-parameter-plugin.git</developerConnection>
+        <url>https://github.com/mamh-java/date-parameter-plugin</url>
       <tag>HEAD</tag>
   </scm>
 
     <developers>
         <developer>
-            <id>leejaycoke</id>
-            <name>JuHyun Lee</name>
-            <email>leejaycoke@gmail.com</email>
-            <timezone>+9</timezone>
+            <id>bright.ma</id>
+            <name>Bright Ma</name>
+            <email>bright.ma@mage.com</email>
         </developer>
     </developers>
 
@@ -58,7 +57,6 @@
         </pluginRepository>
     </pluginRepositories>
 
-    <!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
     <dependencies>
         <dependency>
             <groupId>joda-time</groupId>
