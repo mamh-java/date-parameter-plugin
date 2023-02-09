@@ -5,6 +5,7 @@ import hudson.model.ParameterDefinition;
 import hudson.model.ParameterValue;
 import hudson.util.FormValidation;
 import net.sf.json.JSONObject;
+import org.jenkinsci.Symbol;
 import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.QueryParameter;
 import org.kohsuke.stapler.StaplerRequest;
@@ -88,6 +89,7 @@ public class DateParameterDefinition extends ParameterDefinition {
     }
 
     @Extension
+    @Symbol({"dateParam"})
     public static final class DescriptorImpl extends ParameterDescriptor {
 
         private final static String DISPLAY_NAME = "Date Parameter";
