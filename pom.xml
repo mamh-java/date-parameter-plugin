@@ -15,7 +15,7 @@
 
     <groupId>me.leejay.jenkins</groupId>
     <artifactId>date-parameter</artifactId>
-    <version>0.0.5-SNAPSHOT</version>
+    <version>0.0.5</version>
     <packaging>hpi</packaging>
     <name>Date Parameter Plugin</name>
     <url>https://github.com/mamh-java/date-parameter-plugin</url>
@@ -33,7 +33,7 @@
         <connection>scm:git:https://github.com/mamh-java/date-parameter-plugin.git</connection>
         <developerConnection>scm:git:https://github.com/mamh-java/date-parameter-plugin.git</developerConnection>
         <url>https://github.com/mamh-java/date-parameter-plugin</url>
-      <tag>HEAD</tag>
+      <tag>date-parameter-0.0.5</tag>
   </scm>
 
     <developers>
